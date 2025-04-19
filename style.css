@@ -46,5 +46,23 @@ body
   text-align: left;
   border-radius: 4px;
   cursor: pointer;
+  transition: all 0.3s;
 
+}
+.btn:hover
+{
+  background: #222;
+  color: #fff;
+}
+#nextbtn
+{
+  background: #001e4d;
+  color: #fff;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px  auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
 }
